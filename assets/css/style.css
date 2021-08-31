@@ -1,0 +1,136 @@
+/*Selector universal*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+ body {
+ 	font-size: 16px;
+ }
+
+/* Titulo del sitio */
+.navbar-brand {
+	font-family: Lobster, cursive;
+	font-size: 37px;
+}
+
+
+/*h1 dentro del aside*/
+.card-title {
+	font-family: 'Cabin', sans-serif;
+	font-size: 60px;
+}
+
+/*porciones*/
+.porciones {
+	font-family: 'Cabin', sans-serif;
+	font-size: 20px;
+}
+
+/* Indicadores del carousel */
+.carousel-indicators {
+	margin: -40px auto;
+}
+
+/*Indicadores del carousel*/
+.carousel-indicators li {
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: #000000;
+}
+
+
+/*Etiqueta ol de la seccion ingredientes*/
+.col-6 ol {
+	margin-left: -15px;
+}
+
+
+/*h4 subtítulos Ingredientes y preparación*/
+h4 {
+	font-family: 'Cabin', sans-serif;
+	font-size: 20px;
+}
+
+/*Card sección recetas relacionadas*/
+
+
+/*título sección recetas relacionadas*/
+.recetas-relacionadas h2 {
+	font-family: 'Cabin', sans-serif;
+	font-size: 40px;
+}
+
+/*subtitulos de los card de la sección recetas relacionadas*/
+.recetas-relacionadas h3 {
+	font-family: cabin, sans-serif;
+	font-size: 32px;
+}
+
+/*Parrafos de los card-text sección recetas relacionadas*/
+.recetas-relacionadas p {
+	font-size: 23px;
+	font-family: cabin, sans-serif;
+	}
+
+/* Sección newsletter */
+.newsletter {
+	padding: 150px 0;
+	margin: 80px 0; 
+}
+
+/*Agregando span al nombre del sitio web*/
+.newsletter span {
+	font-family: Lobster, cursive;
+	font-size: 1.5em;
+}
+
+/*boton de la sección newsletter*/
+.newsletter .btn {
+	width: 150px;
+}
+
+.newsletter .btn:hover {
+	background-color: #ffffff;
+	color:  #000000 !important;
+}
+
+.newsletter h2 {
+	font-family: cabin, sans-serif;
+	font-size: 40px;
+}
+
+.newsletter p {
+	font-family: cabin, sans-serif;
+	font-size: 30px;
+}
+
+/*footer*/
+.footer span {
+	font-family: Lobster, cursive;
+	font-size: 30px;
+}
+
+.footer {
+	margin-top: -80px;
+}
+
+/*MEDIA QUERY*/
+@media screen and (min-width: 0px)and (max-width: 576px){
+	.pizza-estilo {
+		text-align: center;
+		font-size:40px;
+	}
+
+	.porciones {
+		text-align: center;
+		font-size: 16px;
+	}
+
+	.recetas-relacionadas h2 {
+		font-size: 25px;
+}
+	
+}
